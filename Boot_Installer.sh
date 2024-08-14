@@ -9,5 +9,5 @@ qemu-system-aarch64 \
   -boot d \
   -netdev user,id=net0 \
   -device virtio-net-device,netdev=net0 \
-  -device virtio-gpu-pci \
+  -device vmware-svga \
   -bios AAVMF_CODE.fd
