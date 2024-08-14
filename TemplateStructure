@@ -1,0 +1,15 @@
+The basic structure of a QEMU command for ARM emulation includes several key options:
+
+qemu-system-aarch64: The QEMU binary for ARM64 (AArch64) emulation.
+-m [memory]: Specifies the amount of memory allocated to the virtual machine.
+-smp [cores]: Defines the number of CPU cores.
+-cpu [cpu_type]: Sets the CPU model.
+-machine [machine_type]: Defines the machine type.
+-drive [options]: Specifies disk drive options.
+-device [device_options]: Configures hardware devices.
+-netdev [options]: Sets up networking.
+-bios [bios_file]: Points to the BIOS file for the virtual machine.
+-cdrom [iso_file]: Mounts a CD-ROM image.
+-boot [order]: Defines the boot order.
+-display [type]: Configures the display type.
+-vnc [display]: Configures VNC server for remote display.
